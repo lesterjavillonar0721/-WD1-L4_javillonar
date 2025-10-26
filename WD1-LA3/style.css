@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+}
+
+nav a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 16px;
+}
+
+.products {
+    flex: 4;
+    padding-right: 16px;
+}
+
+.row.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.row.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #218838;
+}
+
+.cart {
+    flex: 1;
+    border-left: 1px solid #ccc;
+    padding-left: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}

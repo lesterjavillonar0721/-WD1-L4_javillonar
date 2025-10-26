@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+
+            <h2>Drinks</h2>
+            <div class="row flex">
+                <div class="card">
+                    <img src="basi.jpg" alt="Drink 1">
+                    <h3>Basi</h3>
+                    <p class="price">₱320.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="black label.webp" alt="Drink 2">
+                    <h3>Black Label</h3>
+                    <p class="price">₱400.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="lambanog.webp" alt="Drink 3">
+                    <h3>Lambanog</h3>
+                    <p class="price">₱130.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="novelino.webp" alt="Drink 4">
+                    <h3>Novelino</h3>
+                    <p class="price">₱250.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <h2>Snacks</h2>
+            <div class="row grid">
+                <div class="card">
+                    <img src="kitkat.jpg" alt="Snack 1">
+                    <h3>Kit-Kat</h3>
+                    <p class="price">₱30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="hershey.jpg" alt="Snack 2">
+                    <h3>Hershey</h3>
+                    <p class="price">₱35.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="kisses.webp" alt="Snack 3">
+                    <h3>Kisses</h3>
+                    <p class="price">₱20.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img src="oreo.webp" alt="Snack 4">
+                    <h3>Oreo</h3>
+                    <p class="price">₱30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <aside class="cart">
+            <h3>🛒 Cart</h3>
+            <ul id="cart-items"></ul>
+            <p id="total">Total: ₱0.00</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>2025 Your Shop.</p>
+        <p>JAVILLONAR, Lester B.</p>
+        <p>BSCS 2-C</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
